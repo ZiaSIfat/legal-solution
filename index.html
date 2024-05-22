@@ -9,13 +9,43 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1579bcc490.js" crossorigin="anonymous"></script>
+
 <style>
     .font-eb{
         font-family: "EB Garamond", serif;
     }
 </style> 
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            color:'#FF0000',
+          }
+        }
+      }
+    }
+  </script>
 </head>
-<body>
-    
+<body class="bg-white">
+    <header class="py-10">
+        <nav class="lg:flex text-center space-y-5 lg:justify-evenly lg:items-center">
+            <div class="flex  justify-center">
+                <img src="images/logo2.png" alt="">
+            </div>
+            <div class="flex justify-center gap-7 text-black">
+                <p>Home</p>
+                <p>Services <i class="fa-solid fa-chevron-right"></i></p>
+                <p>Cases <i class="fa-solid fa-chevron-right"></i></p>
+                <p>Blog <i class="fa-solid fa-chevron-right"></i></p>
+                <p>Contact Us <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+                <button class="btn bg-yellow-700 text-white border-none">Free Consultation</button>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
