@@ -10,24 +10,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/1579bcc490.js" crossorigin="anonymous"></script>
-
-<style>
-    .font-eb{
-        font-family: "EB Garamond", serif;
-    }
-</style> 
 <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
             clifford: '#da373d',
-            color:'#FF0000',
+            'bg-core': '#B68C5A',
           }
         }
       }
     }
   </script>
+<style>
+    .font-eb{
+        font-family: "EB Garamond", serif;
+    }
+</style> 
 </head>
 <body class="bg-white font-eb">
     <header class="py-10">
@@ -63,5 +62,80 @@
               </div>
         </section>
     </header>
+    <main>
+        <section class="text-black text-center my-20 px-20">
+            <h1 class="text-4xl font-bold mb-3">The Legal Practice Area</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br>
+              suffered alteration in some form, by injected humour.</p>
+            <div class="grid lg:grid-cols-3 mt-10 ">
+                <div class="text-center space-y-3 p-10 border-r-2 border-b-2 hover:bg-gray-100">
+                  <img class="mx-auto" src="images/business.png" alt="">
+                  <h1 class="text-2xl font-bold">Business Law</h1>
+                  <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <button class="btn rounded-full bg-yellow-700 text-white border-none"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+            <div class="border-r-2 border-b-2 hover:bg-gray-100">
+              <div class="text-center space-y-3 p-10">
+                <img class="mx-auto" src="images/criminal.png" alt="">
+                <h1 class="text-2xl font-bold">Criminal Law</h1>
+                <p class="text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <button class="btn rounded-full bg-yellow-700 text-white border-none"><i class="fa-solid fa-arrow-right"></i></button>
+              </div>
+
+          </div><div class="border-b-2 hover:bg-gray-100">
+            <div class="text-center space-y-3 p-10">
+              <img class="mx-auto" src="images/child.png" alt="">
+              <h1 class="text-2xl font-bold">Child Support</h1>
+              <p class="text-sm">There are many variations of
+                passages of Lorem Ipsum
+                available, but the majority have
+                suffered alteration in some
+                form, by injected humour.</p>
+                <button class="btn rounded-full bg-yellow-700 text-white border-none"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+        <div class=" border-r-2 hover:bg-gray-100">
+          <div class="text-center space-y-3 p-10">
+            <img class="mx-auto" src="images/education.png" alt="">
+            <h1 class="text-2xl font-bold">Education Law</h1>
+            <p class="text-sm">There are many variations of
+              passages of Lorem Ipsum
+              available, but the majority have
+              suffered alteration in some
+              form, by injected humour.</p>
+              <button class="btn rounded-full bg-yellow-700 text-white border-none"><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+
+      </div>
+      <div class="border-r-2 hover:bg-gray-100">
+        <div class="text-center space-y-3 p-10">
+          <img class="mx-auto" src="images/divorce.png" alt="">
+          <h1 class="text-2xl font-bold">Divorce Law</h1>
+          <p class="text-sm">There are many variations of
+            passages of Lorem Ipsum
+            available, but the majority have
+            suffered alteration in some
+            form, by injected humour.</p>
+            <button class="btn rounded-full bg-yellow-700 text-white border-none"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </div>
+    <div class="hover:bg-gray-100">
+      <div class="text-center space-y-3 p-10">
+        <img class="mx-auto" src="images/tax.png" alt="">
+        <h1 class="text-2xl font-bold">Tax Law</h1>
+        <p class="text-sm">There are many variations of
+          passages of Lorem Ipsum
+          available, but the majority have
+          suffered alteration in some
+          form, by injected humour.</p>
+          <button class="btn rounded-full bg-yellow-700 text-white border-none"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+  </div>
+        </section>
+    </main>
 </body>
 </html>
